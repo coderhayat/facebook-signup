@@ -1,0 +1,216 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F2F5;
+}
+.container{
+    width: 393px;
+    margin: 0 auto;
+    position: relative;
+}
+.container h1{
+    margin: 5px 0px;
+    text-align: center;
+    color: #1877F2;
+    font-size: 60px;
+    font-weight: bold;
+}
+.form-div{
+    padding: 16px;
+    width: 393px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-div h3, .form-div .top-para{
+    text-align: center;
+}
+.form-div h3{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: #1c1e21;
+}
+.form-div .top-para{
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+.form-div hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.form-div #firstname, .form-div #surname{
+    width:49.3%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    border-color: #ccd0d5;
+    outline: none;
+}
+.form-div #mobile, .form-div #password{
+    width: 100%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    border-color: #ccd0d5;
+    outline: none;
+}
+.form-div .birth{
+    color:#1c1e21; 
+    line-height: 30px;
+}
+select{
+    width: 117px;
+    border-radius: 4px;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    padding: 0 20px 0 8px;
+}
+.form-div .gender{
+    line-height: 30px;
+}
+.form-div .radio-span{
+    border: 1px solid #ccd0d5;
+    background-color: #fff;
+    margin: 8px 6px 6px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 9px 2px 9px 8px;
+    
+}
+.form-div .label{
+    padding: 5px 28px 5px 10px;
+    font-size: 15px;
+    line-height: 36px;
+    color: #1c1e21;
+}
+.form-div .bottom-para-1{
+    color: #777777;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.form-div .bottom-para-2{
+    color: #777777;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.form-div .btn-div{
+    text-align: center;
+}
+.form-div .btn{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif!important;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 45px;
+    text-shadow: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.form-div .bottom-para-3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #1877F2;
+    cursor: pointer;
+}
+.wrn-images{
+    text-align: center;
+}
+#firstname-wrn{
+    position: absolute;
+    top: 195px;
+    right: 205px;
+    display: none;
+}
+#surname-wrn{
+    position: absolute;
+    top: 195px;
+    right: 23px;
+    display: none;
+}
+#mobile-wrn{
+    position: absolute;
+    top: 253px;
+    right: 23px;
+    display: none;
+}
+#password-wrn{
+    position: absolute;
+    top: 311px;
+    right: 23px;
+    display: none;
+}
+.form-div #photo_1{
+    position: absolute;
+    top: 180px;
+    left: -145px;
+    display: none;
+}
+.form-div #photo_2{
+    position: absolute;
+    top: 230px;
+    left: 190px;
+    display: none;
+}
+.form-div #photo_3{
+    position: absolute;
+    top: 240px;
+    right: 382px;
+    display: none;
+}
+.form-div #photo_4{
+    position: absolute;
+    top: 300px;
+    right: 382px;
+    display: none;
+}
+.form-div #pass-div{
+    border: 1px solid #ccd0d5;
+    padding: 11px;
+    background-color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #777777;
+    line-height: 20px;
+    display: none;
+    position: absolute;
+    
+}
+.form-div #mobile-div{
+    border: 1px solid #ccd0d5;
+    padding: 11px;
+    background-color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #777777;
+    line-height: 20px;
+    display: none;
+    position: absolute;
+}
